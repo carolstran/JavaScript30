@@ -10,7 +10,7 @@ Last Commit: June 1, 2017
 
 ## Checklist
 
-- [x] 01 - JavaScript Drum Kit
+- [x] 01 - [JavaScript Drum Kit](https://github.com/stranskycaro/JavaScript30/tree/master/Challenges/01%20-%20JavaScript%20Drum%20Kit)
 - [ ] 02 - JS and CSS Clock
 - [ ] 03 - CSS Variables
 - [ ] 04 - Array Cardio Day 1
