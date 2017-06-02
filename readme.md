@@ -4,14 +4,12 @@
 
 A repo to track my progress (and let's be honest, keep myself accountable) with the 30 Day Vanilla JS Challenge. No frameworks, no libraries, just pure JavaScript.
 
-Within each challenge, I will log what I have built, what I learned and anything that I've changed from the original.
-
-Last Commit: June 1, 2017
+Within each exercise, I will log what I have built, what I learned and anything that I have changed from the original.
 
 ## Checklist
 
 - [x] 01 - [JavaScript Drum Kit](https://github.com/stranskycaro/JavaScript30/tree/master/Challenges/01%20-%20JavaScript%20Drum%20Kit)
-- [ ] 02 - JS and CSS Clock
+- [x] 02 - [JS and CSS Clock](https://github.com/stranskycaro/JavaScript30/tree/master/Challenges/02%20-%20JS%20and%20CSS%20Clock)
 - [ ] 03 - CSS Variables
 - [ ] 04 - Array Cardio Day 1
 - [ ] 05 - Flex Panel Gallery
