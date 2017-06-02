@@ -1,6 +1,8 @@
 # Day 1 - JavaScript Drum Kit
 For the first exercise in the series, I was tasked with building a virtual drum kit activated by a keydown event listener. It is equip with audio tracks and CSS animations.
 
+Committed on: June 1, 2017
+
 #### My Twist
 Throughout this course, I will be using a separate script file rather than script tags within an HTML file. Additionally, I made the styling more sleek by eliminating the busy background and the drop shadow.
 
