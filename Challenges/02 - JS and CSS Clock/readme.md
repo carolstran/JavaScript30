@@ -4,8 +4,6 @@ A quick second exercise, focused on creating a clock object out of various ```<d
 Committed on: June 2, 2017
 
 #### My Twist
-Again, I created separate files for the script and styling. Everything else remained the same aside from making the border of the clock and its hands thinner.
-
 ###### Update: June 3, 2017
 It's the weekend, so I had the opportunity to go back and tackle the issue Wes proposes before the video ends. The problem is that whenever the second hand hits zero, the hands reset and create a visible glitch. This is because with the ```transition: all 0.05s``` - the hand must go backwards to get from 60 seconds (450 degrees) to 0 seconds (90 degrees).
 
