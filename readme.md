@@ -10,7 +10,7 @@ Within each exercise, I will log what I have built, what I learned and anything 
 
 - [x] 01 - [JavaScript Drum Kit](https://github.com/stranskycaro/JavaScript30/tree/master/Challenges/01%20-%20JavaScript%20Drum%20Kit)
 - [x] 02 - [JS and CSS Clock](https://github.com/stranskycaro/JavaScript30/tree/master/Challenges/02%20-%20JS%20and%20CSS%20Clock)
-- [ ] 03 - CSS Variables
+- [x] 03 - [CSS Variables](https://github.com/stranskycaro/JavaScript30/tree/master/Challenges/03%20-%20CSS%20Variables)
 - [ ] 04 - Array Cardio Day 1
 - [ ] 05 - Flex Panel Gallery
 - [ ] 06 - Type Ahead
