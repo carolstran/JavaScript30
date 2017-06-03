@@ -4,9 +4,31 @@ A quick second exercise, focused on creating a clock object out of various ```<d
 Committed on: June 2, 2017
 
 #### My Twist
-Again, I created separate files for the script and styling. Everything else remained the same besides making the border of the clock and its hands thinner.
+Again, I created separate files for the script and styling. Everything else remained the same aside from making the border of the clock and its hands thinner.
 
-I'm hoping to come back to this exercise to add some ```if``` statements to prevent the second hand from restarting at 0. When I do, I'll be sure to update that here.
+###### Update: June 3, 2017
+It's the weekend, so I had the opportunity to go back and tackle the issue Wes proposes before the video ends. The problem is that whenever the second hand hits zero, the hands reset and create a visible glitch. This is because with the ```transition: all 0.05s``` - the hand must go backwards to get from 60 seconds (450 degrees) to 0 seconds (90 degrees).
+
+To tackle this, I implemented a simple ```if/else``` statement that first checks if the ```secondDegrees``` equals 90, then resetting the inline style. The code looks like this:
+
+``` javascript
+if(secondsDegrees === 90) {
+        secondHand.style.transition = 'none';
+    } else {
+        secondHand.style.transition = '';
+    }
+```
+
+The minute and hands still jerk a little when they change, but I'll take it.
+
+Another addition I made today was adding a **digital clock** component, an idea I stumbled across after googling ways to expand these exercises. In order to create this digital clock, I took the following steps:
+
+* Created an HTML structure similar to the original, adding ```-digital``` to the end of each class name
+* Added ```const``` variables for these new elements using ```document.querySelector()```
+* Create a ```checkTime()``` function that accepts an integer, checks if that integer is less than 10 (and if so, adding a 0 in front) then returns the integer that will display on the clock
+* Finally, chain the function to the innerHTML property
+
+You can see the code for this in my [script.js](https://github.com/stranskycaro/JavaScript30/blob/master/Challenges/02%20-%20JS%20and%20CSS%20Clock/script.js) file for this exercise.
 
 ## Takeaways
 
