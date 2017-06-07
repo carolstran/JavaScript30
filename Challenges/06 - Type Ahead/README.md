@@ -1,5 +1,5 @@
-# Day 6 - Type Ahead
-Today we built what Wes calls a "Type Ahead" feature. This is where you have a preset list and an input - then whenever someone types a value into the input that matches a value within the list, it shows the potential results. In this case, we were dealing with cities and
+# Day 6 - AJAX Type Ahead
+Today we built what Wes calls a "type ahead" feature. This is where you have a preset list and an input - then whenever someone types a value into the input that matches a value within the list, it shows the potential results. In this case, we were dealing with cities and
 
 #### My Twist
 I've built incremental searches before, but never steered the styling away from a traditional Google-type view. However, I'm into this stacked look that Wes has incorporated - so I kept the challenge as-is.

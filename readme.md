@@ -13,7 +13,7 @@ Within each exercise, I will log what I have built, what I learned and anything 
 - [x] 03 - [CSS Variables](https://github.com/stranskycaro/JavaScript30/tree/master/Challenges/03%20-%20CSS%20Variables)
 - [x] 04 - [Array Cardio Day 1](https://github.com/stranskycaro/JavaScript30/tree/master/Challenges/04%20-%20Array%20Cardio%20Day%201)
 - [x] 05 - [Flex Panel Gallery](https://github.com/stranskycaro/JavaScript30/tree/master/Challenges/05%20-%20Flex%20Panel%20Gallery)
-- [ ] 06 - Type Ahead
+- [x] 06 - [AJAX Type Ahead](https://github.com/stranskycaro/JavaScript30/tree/master/Challenges/06%20-%20Type%20Ahead)
 - [ ] 07 - Array Cardio Day 2
 - [ ] 08 - Fun with HTML5 Canvas
 - [ ] 09 - Dev Tools Domination
