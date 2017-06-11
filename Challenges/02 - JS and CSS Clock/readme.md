@@ -1,7 +1,7 @@
 # Day 2 - JS and CSS Clock
 A quick second exercise, focused on creating a clock object out of various ```<div>``` elements and then using JavaScript to move the hands according to the time of day. Hours, minutes _and_ seconds.
 
-Committed on: June 2, 2017
+Completed on: June 2, 2017
 
 #### My Twist
 ###### Update: June 3, 2017

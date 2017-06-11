@@ -10,7 +10,7 @@ Array.prototype.sort()
 Array.prototype.reduce()
 ```
 
-Committed on: June 6, 2017
+Completed on: June 6, 2017
 
 ## Takeaways
 
