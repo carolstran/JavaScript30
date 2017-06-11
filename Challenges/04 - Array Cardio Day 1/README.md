@@ -13,8 +13,6 @@ Array.prototype.reduce()
 Completed on: June 6, 2017
 
 ## Takeaways
-
-#### These Array Methods (naturally)
 Here's a quick recap of each method and what it does.
 
 ``` JavaScript
