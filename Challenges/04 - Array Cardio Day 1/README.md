@@ -10,8 +10,6 @@ Array.prototype.sort()
 Array.prototype.reduce()
 ```
 
-Completed on: June 6, 2017
-
 ## Takeaways
 Here's a quick recap of each method and what it does.
 

@@ -4,8 +4,6 @@ After a draining array cardio for Day 4, it was restoring to have a challenge wh
 #### My Twist
 While I didn't have the time today, I hope to go back and alter the design/words in a way that is meaningful to me. I would also love to refactor the script code so it checks if a panel is already open, and if so - closes it, before opening a new one.
 
-Completed on: June 6, 2017
-
 ## Takeaways
 
 #### ```.toggle()``` Method

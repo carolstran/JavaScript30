@@ -6,8 +6,6 @@ I've built incremental searches before, but never steered the styling away from 
 
 At the end, Wes mentions an additional challenge would be to find new ways to sort the data from the ```cities.json``` file. Particularly, using Geolocation and having the cities in results appear by whichever is closest to you. Planning to tackle that one as soon as we cover Geolocation.
 
-Completed on: June 7, 2017
-
 ## Takeaways
 
 #### "Get Your Data First"

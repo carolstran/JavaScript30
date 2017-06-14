@@ -1,10 +1,7 @@
 # Day 2 - JS and CSS Clock
 A quick second exercise, focused on creating a clock object out of various ```<div>``` elements and then using JavaScript to move the hands according to the time of day. Hours, minutes _and_ seconds.
 
-Completed on: June 2, 2017
-
 #### My Twist
-###### Update: June 3, 2017
 It's the weekend, so I had the opportunity to go back and tackle the issue Wes proposes before the video ends. The problem is that whenever the second hand hits zero, the hands reset and create a visible glitch. This is because with the ```transition: all 0.05s``` - the hand must go backwards to get from 60 seconds (450 degrees) to 0 seconds (90 degrees).
 
 To tackle this, I implemented a simple ```if/else``` statement that first checks if the ```secondDegrees``` equals 90, then resetting the inline style. The code looks like this:

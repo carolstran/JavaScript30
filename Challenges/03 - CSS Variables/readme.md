@@ -19,8 +19,6 @@ background: var(--base);
 filter: blur(var(--blur));
 ```
 
-Completed on: June 3, 2017
-
 ## Takeaways
 Aside from these CSS variables, there were a few addition TIL (today I learned) moments in this video, including...
 

@@ -10,8 +10,6 @@ Array.prototype.findIndex()
 
 Knowing all of these array methods will come in handy when you are massaging your data. So let's see what they actually do!
 
-Completed on: June 7, 2017
-
 ## Takeaways
 Here's a quick recap of each method and what it does.
 
