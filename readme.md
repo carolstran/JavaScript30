@@ -14,7 +14,7 @@ Within each exercise, I will log what I have built, what I learned and anything 
 - [x] 04 - [Array Cardio Day 1](https://github.com/stranskycaro/JavaScript30/tree/master/Challenges/04%20-%20Array%20Cardio%20Day%201)
 - [x] 05 - [Flex Panel Gallery](https://github.com/stranskycaro/JavaScript30/tree/master/Challenges/05%20-%20Flex%20Panel%20Gallery)
 - [x] 06 - [AJAX Type Ahead](https://github.com/stranskycaro/JavaScript30/tree/master/Challenges/06%20-%20Type%20Ahead)
-- [x] 07 - [Array Cardio Day 2](https://github.com/stranskycaro/JavaScript30)
+- [x] 07 - [Array Cardio Day 2](https://github.com/stranskycaro/JavaScript30/tree/master/Challenges/07%20-%20Array%20Cardio%20Day%202)
 - [ ] 08 - Fun with HTML5 Canvas
 - [ ] 09 - Dev Tools Domination
 - [ ] 10 - Hold Shift and Check Checkboxes
