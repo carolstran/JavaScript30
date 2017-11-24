@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Console Tricks!</title>
+</head>
+<body>
+
+  <!-- makeGreen() is inline for simplicity reasons, could also be an event listener -->
+  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+
+  <script>
+    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+    function makeGreen() {
+      const p = document.querySelector('p');
+      p.style.color = '#BADA55';
+      p.style.fontSize = '50px';
+    }
+    // Regular
+    console.log('hello');
+
+    // Interpolated
+    console.log('Hello I am a %s string!', '💩'); // %s puts the second argument in the string
+    // While this way of writing strings work, it's less relevant now that we have ES6 backticks
+
+    // Styled
+    // console.log('%c I am some great text', 'font-size:50px; background:red; text-shadow: 10px 10px 0 blue'); // %c allows you to do any font style
+    // You do %c in front of the thing that you want to style
+    // Then the second argument you pass the console will be interpolated into the text
+    // Commented it out because it's obnoxious
+
+    // warning!
+    console.warn('OH NOOO'); // This will give us a warning, as well as stack traces to where it got called
+
+    // Error :|
+    console.error('shit!'); // Won't throw an error, but it will display an error within the console
+    // Will also give you a stack trace
+
+    // Info
+    console.info('Crocodiles eat 3-4 people per year'); // To display info + the little i - didn't work for me though
+
+    // Testing
+    console.assert(1 === 1, 'This is wrong!'); // To check if things are true
+    // If we run the above, we don't see anything. console.assert() only fires if something is wrong
+    console.assert(1 === 2, 'This is wrong!');
+
+    const p = document.querySelector('p');
+    console.assert(p.classList.contains('ouch'), 'That is wrong!');
+    // Then if the class list does not contain ouch, it will show the message
+    // You can test for something and if it is false, it will drop this error into your console
+    // If it's true nothing will happen, so no need to put an if statement
+
+    // clearing
+    console.clear(); // Good way to mess with a dev
+
+    // Viewing DOM Elements
+    console.log(p); // Will just display the line of code
+    console.dir(p); // Will give a dropdown of the element: Children, dataset, classlist, etc.
+    // All of the stuff that lives on the element will be displayed with dir. The actual element is displayed with log.
+
+    // Grouping together
+    dogs.forEach(dog => {
+      console.log(`This is ${dog.name}`);
+      console.log(`${dog.name} is ${dog.age} years old`);
+      console.log(`${dog.name} is ${dog.age * 7} dog years old`);
+    });
+    // There's a lot of stuff going on above, let's simplify that.
+    // console.clear();
+
+    dogs.forEach(dog => {
+      console.group(`${dog.name}`);
+      console.log(`This is ${dog.name}`);
+      console.log(`${dog.name} is ${dog.age} years old`);
+      console.log(`${dog.name} is ${dog.age * 7} dog years old`);
+      console.groupEnd(`${dog.name}`); // Pass it the same string you did to start it
+    });
+
+    // You can also switch out .group for .groupCollapsed and then by default they will be collapsed
+
+    // counting
+    console.count('Wes'); // Will count however many times you use a specific word or number or object or dom node
+    console.count('Wes');
+    console.count('Steve');
+    console.count('Wes');
+    console.count('Steve');
+    console.count('Steve');
+    console.count('Wes');
+    console.count('Steve');
+    // It will log in real-time
+
+    // timing
+    console.time('fetching data'); // See how long something takes
+    fetch('https://api.github.com/users/wesbos')
+      .then(data => data.json())
+      .then(data => {
+        console.timeEnd('fetching data'); // Pass it the same string you did to start it
+        console.log(data);
+      });
+
+      // I know there is also performance.now in the browser, but this is a quick way to see how long things are taking
+
+    // table
+    console.table(dogs); // Takes an array of objects (assuming that they all have the same properties) and display in a nice table
+    // You can always drag and drop the table size
+
+  </script>
+</body>
+</html>
