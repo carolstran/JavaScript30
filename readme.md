@@ -17,7 +17,7 @@ Within each exercise, I will log what I have built, what I learned and anything 
 - [x] 07 - [Array Cardio Day 2](https://github.com/carolstran/JavaScript30/tree/master/Challenges/07%20-%20Array%20Cardio%20Day%202)
 - [x] 08 - [Fun with HTML5 Canvas](https://github.com/carolstran/JavaScript30/tree/master/Challenges/08%20-%20Fun%20with%20HTML5%20Canvas)
 - [x] 09 - [Dev Tools Domination](https://github.com/carolstran/JavaScript30/tree/master/Challenges/09%20-%20Dev%20Tools%20Domination)
-- [ ] 10 - Hold Shift and Check Checkboxes
+- [x] 10 - [Hold Shift and Check Checkboxes](https://github.com/carolstran/JavaScript30/tree/master/Challenges/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)
 - [ ] 11 - Custom Video Player
 - [ ] 12 - Key Sequence Detection
 - [ ] 13 - Slide in on Scroll
